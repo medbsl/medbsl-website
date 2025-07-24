@@ -1,0 +1,11 @@
+name = "my-site"
+compatibility_date = "2024-01-01"
+
+[site]
+bucket = "./dist"
+entry-point = "."  # still needed but not used for static
+
+# Optional if you want previewing:
+[dev]
+ip = "localhost"
+port = 8787
